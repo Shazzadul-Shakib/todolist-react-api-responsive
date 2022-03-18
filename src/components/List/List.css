@@ -1,0 +1,22 @@
+.list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #DADBBD;
+  margin: 20px;
+  padding: 15px;
+}  
+.list>h4{
+  padding: 20px;
+}
+.list-id{
+  color: #151D3B;
+}
+.list-text{
+  color: #D82148;
+}
+@media (max-width: 600px) {
+  .list{
+    margin: 10px 5px;
+  }
+}
